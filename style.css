@@ -262,6 +262,10 @@ button:hover{
         left: 50%;
         transform: translateX(-50%);
     }
+    nav{
+        padding: 0 30px;
+        justify-content: center;
+    }
     nav li{
         display: none;
     }
