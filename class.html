@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="class.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <section id="menu">
+        <div class="close" onclick="closeMenu()"><i class="fas fa-times"></i></div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="class.html">Class</a></li>
+            <li><a href="https://wa.me/+6281336340166">Contacts</a></li>
+        </ul>
+    </section>
+    <section id="gamelab">
+        <div class="card">
+            <i class="fas fa-check-circle"></i>
+            <div>Berhasil masuk ke Gamelab!</div>
+            <button onclick="closeGame()">Oke</button>
+        </div>
+    </section>
+
+    <!--contents-->
+    <nav>
+        <a href="#" class="logo" onclick="showGame()">Gamelab.id</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="class.html">Class</a></li>
+            <li><a href="https://wa.me/+6281336340166">Contacts</a></li>
+            <li onclick="showMenu()"><i class="fas fa-bars"></i></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Kelas Gamelab</h1>
+    </header>
+    <section class="kelas">
+        <div>
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h2>Magang Online</h2>
+            <h3>Siswa SMK, mahasiswa, guru, atau dosen bisa magang untuk tujuan akademis di Gamelab. Yuk, register sekarang juga!</h3>
+        </div>
+        <div>
+            <i class="fas fa-graduation-cap"></i>
+            <h2>Kampus Merdeka</h2>
+            <h3>Belajar coding dan desain dari mana saja. tingkatkan skillmu dengan program interaktif dan kekinian. Siap Kerja!!!</h3>
+        </div>
+        <div>
+            <i class="fas fa-lightbulb"></i>
+            <h2>Kelas Industri</h2>
+            <h3>Kurikulum berbasis industri, pengajar dari industri, magang di industri. daftarkan SMK dan kampusmu sekarang!</h3>
+        </div>
+        <div>
+            <i class="fas fa-search"></i>
+            <h2>Job Matching</h2>
+            <h3>Temukan pekerjaan yang sesuai kompetensimu. Bangun karir di perusahaan impian!</h3>
+        </div>
+    </section>
+    <script src="app.js">
+        
+    </script>
+</body>
+</html>
